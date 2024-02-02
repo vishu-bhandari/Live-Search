@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Navbar from "./Navbar";
 import Services from "./Services";
 import User from "./User";
+import Search from "./Search";
 
 const App = () => {
   const Name = () => {
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/user" element={<User/>}></Route>
         <Route path="/contact/Name" element={<Name />} />
         {/* <Route path="*" element={<Error />} /> */}
+        <Route path="/search" element={<Search/>}></Route>
       </Routes>
     </>
   );

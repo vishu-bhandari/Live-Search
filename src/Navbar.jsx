@@ -11,6 +11,9 @@ function Navbar() {
         <NavLink exact activeClassName="active_class" to="/user/vishu/bhandari">
           User 
         </NavLink>
+        <NavLink exact activeClassName="active_class" to="/search">
+          Search
+        </NavLink>
         <NavLink exact activeClassName="active_class" to="/service">
           Services
         </NavLink>
