@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import SearchResult from "./SearchResult";
+
 
 const Search = () => {
   const [img, setImg] = useState("vishu");
@@ -18,6 +20,7 @@ const Search = () => {
           value={img}
           onChange={inputEvent}
         />
+        <SearchResult name={img}/>
       </div>
     </>
   );
