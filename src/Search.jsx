@@ -20,7 +20,7 @@ const Search = () => {
           value={img}
           onChange={inputEvent}
         />
-        <SearchResult name={img}/>
+       { img===""? null: <SearchResult name={img}/>} 
       </div>
     </>
   );
